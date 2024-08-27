@@ -46,6 +46,12 @@
             this.btnCentro = new System.Windows.Forms.Button();
             this.btnSudeste = new System.Windows.Forms.Button();
             this.btnSul = new System.Windows.Forms.Button();
+            this.lblEstados = new System.Windows.Forms.Label();
+            this.lblNorte = new System.Windows.Forms.Label();
+            this.lblNordeste = new System.Windows.Forms.Label();
+            this.lblCentro = new System.Windows.Forms.Label();
+            this.lblSudeste = new System.Windows.Forms.Label();
+            this.lblSul = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -114,65 +120,39 @@
             this.cboEstados.FormattingEnabled = true;
             this.cboEstados.Items.AddRange(new object[] {
             "AC",
-            "",
             "AL",
-            "",
             "AM",
-            "",
             "AP",
-            "",
             "BA",
-            "",
             "CE",
-            "",
             "DF",
-            "",
             "ES",
-            "",
             "GO",
-            "",
             "MA",
-            "",
             "MG",
-            "",
             "MS",
-            "",
             "MT",
-            "",
             "PA",
-            "",
             "PB",
-            "",
             "PE",
-            "",
             "PI",
-            "",
             "PR",
-            "",
             "RJ",
-            "",
             "RN",
-            "",
             "RO",
-            "",
             "RR",
-            "",
             "RS",
-            "",
             "SC",
-            "",
             "SE",
-            "",
             "SP",
-            "",
             "TO",
-            "",
             "",
             ""});
             this.cboEstados.Location = new System.Drawing.Point(269, 67);
             this.cboEstados.Name = "cboEstados";
             this.cboEstados.Size = new System.Drawing.Size(263, 21);
             this.cboEstados.TabIndex = 6;
+            this.cboEstados.SelectedIndexChanged += new System.EventHandler(this.cboEstados_SelectedIndexChanged);
             // 
             // cboNorte
             // 
@@ -223,6 +203,7 @@
             this.btnEstados.TabIndex = 12;
             this.btnEstados.Text = "-";
             this.btnEstados.UseVisualStyleBackColor = true;
+            this.btnEstados.Click += new System.EventHandler(this.btnEstados_Click);
             // 
             // btnNorte
             // 
@@ -274,11 +255,72 @@
             this.btnSul.Text = "-";
             this.btnSul.UseVisualStyleBackColor = true;
             // 
+            // lblEstados
+            // 
+            this.lblEstados.AutoSize = true;
+            this.lblEstados.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEstados.Location = new System.Drawing.Point(662, 70);
+            this.lblEstados.Name = "lblEstados";
+            this.lblEstados.Size = new System.Drawing.Size(0, 20);
+            this.lblEstados.TabIndex = 18;
+            // 
+            // lblNorte
+            // 
+            this.lblNorte.AutoSize = true;
+            this.lblNorte.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNorte.Location = new System.Drawing.Point(662, 141);
+            this.lblNorte.Name = "lblNorte";
+            this.lblNorte.Size = new System.Drawing.Size(0, 20);
+            this.lblNorte.TabIndex = 19;
+            this.lblNorte.Click += new System.EventHandler(this.lblNorte_Click);
+            // 
+            // lblNordeste
+            // 
+            this.lblNordeste.AutoSize = true;
+            this.lblNordeste.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNordeste.Location = new System.Drawing.Point(662, 199);
+            this.lblNordeste.Name = "lblNordeste";
+            this.lblNordeste.Size = new System.Drawing.Size(0, 20);
+            this.lblNordeste.TabIndex = 20;
+            // 
+            // lblCentro
+            // 
+            this.lblCentro.AutoSize = true;
+            this.lblCentro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCentro.Location = new System.Drawing.Point(662, 278);
+            this.lblCentro.Name = "lblCentro";
+            this.lblCentro.Size = new System.Drawing.Size(0, 20);
+            this.lblCentro.TabIndex = 21;
+            // 
+            // lblSudeste
+            // 
+            this.lblSudeste.AutoSize = true;
+            this.lblSudeste.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSudeste.Location = new System.Drawing.Point(665, 339);
+            this.lblSudeste.Name = "lblSudeste";
+            this.lblSudeste.Size = new System.Drawing.Size(0, 20);
+            this.lblSudeste.TabIndex = 22;
+            // 
+            // lblSul
+            // 
+            this.lblSul.AutoSize = true;
+            this.lblSul.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSul.Location = new System.Drawing.Point(665, 411);
+            this.lblSul.Name = "lblSul";
+            this.lblSul.Size = new System.Drawing.Size(0, 20);
+            this.lblSul.TabIndex = 23;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(779, 518);
+            this.Controls.Add(this.lblSul);
+            this.Controls.Add(this.lblSudeste);
+            this.Controls.Add(this.lblCentro);
+            this.Controls.Add(this.lblNordeste);
+            this.Controls.Add(this.lblNorte);
+            this.Controls.Add(this.lblEstados);
             this.Controls.Add(this.btnSul);
             this.Controls.Add(this.btnSudeste);
             this.Controls.Add(this.btnCentro);
@@ -299,6 +341,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -324,6 +367,12 @@
         private System.Windows.Forms.Button btnCentro;
         private System.Windows.Forms.Button btnSudeste;
         private System.Windows.Forms.Button btnSul;
+        private System.Windows.Forms.Label lblEstados;
+        private System.Windows.Forms.Label lblNorte;
+        private System.Windows.Forms.Label lblNordeste;
+        private System.Windows.Forms.Label lblCentro;
+        private System.Windows.Forms.Label lblSudeste;
+        private System.Windows.Forms.Label lblSul;
     }
 }
 
