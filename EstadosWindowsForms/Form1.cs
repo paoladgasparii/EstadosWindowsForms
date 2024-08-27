@@ -43,7 +43,7 @@ namespace EstadosWindowsForms
 
         private void btnEstados_Click(object sender, EventArgs e)
         {
-            if (cboEstados.Text == "SP" || cboEstados.Text == "RJ" || cboEstados.Text == "MG" || cboEstados.Text == "ES") ;
+            if (cboEstados.Text == "SP" || cboEstados.Text == "RJ" || cboEstados.Text == "MG" || cboEstados.Text == "ES") 
             {
                 cboSudeste.Items.Add(cboEstados.Text);
                 cboEstados.Items.RemoveAt(cboEstados.SelectedIndex);
@@ -52,7 +52,7 @@ namespace EstadosWindowsForms
                 cboSudeste.Sorted = true;
             }
 
-            if (cboEstados.Text == "RS" || cboEstados.Text == "PR" || cboEstados.Text == "SC") ;
+            if (cboEstados.Text == "RS" || cboEstados.Text == "PR" || cboEstados.Text == "SC") 
             {
                 cboSul.Items.Add(cboEstados.Text);
                 cboEstados.Items.RemoveAt(cboEstados.SelectedIndex);
@@ -61,7 +61,7 @@ namespace EstadosWindowsForms
                 cboSul.Sorted = true;
             }
 
-            if (cboEstados.Text == "MT" || cboEstados.Text == "MS" || cboEstados.Text == "GO") ;
+            if (cboEstados.Text == "MT" || cboEstados.Text == "MS" || cboEstados.Text == "GO") 
             {
                 cboCentro.Items.Add(cboEstados.Text);
                 cboEstados.Items.RemoveAt(cboEstados.SelectedIndex);
@@ -70,7 +70,7 @@ namespace EstadosWindowsForms
                 cboCentro.Sorted = true;
             }
 
-            if (cboEstados.Text == "PE" || cboEstados.Text == "PB" || cboEstados.Text == "PI" || cboEstados.Text == "BA" || cboEstados.Text == "CE" || cboEstados.Text == "RN" || cboEstados.Text == "SE" || cboEstados.Text == "MA" || cboEstados.Text == "AL") ;
+            if (cboEstados.Text == "PE" || cboEstados.Text == "PB" || cboEstados.Text == "PI" || cboEstados.Text == "BA" || cboEstados.Text == "CE" || cboEstados.Text == "RN" || cboEstados.Text == "SE" || cboEstados.Text == "MA" || cboEstados.Text == "AL") 
             {
                 cboNordeste.Items.Add(cboEstados.Text);
                 cboEstados.Items.RemoveAt(cboEstados.SelectedIndex);
@@ -79,7 +79,7 @@ namespace EstadosWindowsForms
                 cboNordeste.Sorted = true;
             }
 
-            if (cboEstados.Text == "AC" || cboEstados.Text == "AM" || cboEstados.Text == "RO" || cboEstados.Text == "RR" || cboEstados.Text == "PA" || cboEstados.Text == "AP" || cboEstados.Text == "TO") ;
+            if (cboEstados.Text == "AC" || cboEstados.Text == "AM" || cboEstados.Text == "RO" || cboEstados.Text == "RR" || cboEstados.Text == "PA" || cboEstados.Text == "AP" || cboEstados.Text == "TO") 
             {
                 cboNorte.Items.Add(cboEstados.Text);
                 cboEstados.Items.RemoveAt(cboEstados.SelectedIndex);
