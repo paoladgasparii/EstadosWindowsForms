@@ -58,9 +58,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(104, 68);
+            this.label1.Location = new System.Drawing.Point(139, 84);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 16);
+            this.label1.Size = new System.Drawing.Size(147, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Todos os estados:";
             // 
@@ -68,9 +69,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(130, 137);
+            this.label2.Location = new System.Drawing.Point(173, 169);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 16);
+            this.label2.Size = new System.Drawing.Size(112, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Região Norte:";
             // 
@@ -78,9 +80,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(107, 206);
+            this.label3.Location = new System.Drawing.Point(143, 254);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(114, 16);
+            this.label3.Size = new System.Drawing.Size(139, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "Região Nordeste:";
             // 
@@ -88,9 +91,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(87, 276);
+            this.label4.Location = new System.Drawing.Point(116, 340);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(137, 16);
+            this.label4.Size = new System.Drawing.Size(172, 20);
             this.label4.TabIndex = 3;
             this.label4.Text = "Região Centro-Oeste:";
             // 
@@ -98,9 +102,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(116, 342);
+            this.label5.Location = new System.Drawing.Point(155, 421);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(108, 16);
+            this.label5.Size = new System.Drawing.Size(132, 20);
             this.label5.TabIndex = 4;
             this.label5.Text = "Região Sudeste:";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -109,9 +114,10 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(144, 416);
+            this.label6.Location = new System.Drawing.Point(192, 512);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(77, 16);
+            this.label6.Size = new System.Drawing.Size(95, 20);
             this.label6.TabIndex = 5;
             this.label6.Text = "Região Sul:";
             // 
@@ -145,58 +151,65 @@
             "SP",
             "SE",
             "TO"});
-            this.cboEstados.Location = new System.Drawing.Point(269, 67);
+            this.cboEstados.Location = new System.Drawing.Point(359, 82);
+            this.cboEstados.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboEstados.Name = "cboEstados";
-            this.cboEstados.Size = new System.Drawing.Size(263, 21);
+            this.cboEstados.Size = new System.Drawing.Size(349, 24);
             this.cboEstados.TabIndex = 6;
             this.cboEstados.SelectedIndexChanged += new System.EventHandler(this.cboEstados_SelectedIndexChanged);
             // 
             // cboNorte
             // 
             this.cboNorte.FormattingEnabled = true;
-            this.cboNorte.Location = new System.Drawing.Point(269, 133);
+            this.cboNorte.Location = new System.Drawing.Point(359, 164);
+            this.cboNorte.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboNorte.Name = "cboNorte";
-            this.cboNorte.Size = new System.Drawing.Size(263, 21);
+            this.cboNorte.Size = new System.Drawing.Size(349, 24);
             this.cboNorte.TabIndex = 7;
             // 
             // cboNordeste
             // 
             this.cboNordeste.FormattingEnabled = true;
-            this.cboNordeste.Location = new System.Drawing.Point(269, 201);
+            this.cboNordeste.Location = new System.Drawing.Point(359, 247);
+            this.cboNordeste.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboNordeste.Name = "cboNordeste";
-            this.cboNordeste.Size = new System.Drawing.Size(263, 21);
+            this.cboNordeste.Size = new System.Drawing.Size(349, 24);
             this.cboNordeste.TabIndex = 8;
             // 
             // cboCentro
             // 
             this.cboCentro.FormattingEnabled = true;
-            this.cboCentro.Location = new System.Drawing.Point(269, 275);
+            this.cboCentro.Location = new System.Drawing.Point(359, 338);
+            this.cboCentro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboCentro.Name = "cboCentro";
-            this.cboCentro.Size = new System.Drawing.Size(263, 21);
+            this.cboCentro.Size = new System.Drawing.Size(349, 24);
             this.cboCentro.TabIndex = 9;
             // 
             // cboSudeste
             // 
             this.cboSudeste.FormattingEnabled = true;
-            this.cboSudeste.Location = new System.Drawing.Point(269, 341);
+            this.cboSudeste.Location = new System.Drawing.Point(359, 420);
+            this.cboSudeste.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboSudeste.Name = "cboSudeste";
-            this.cboSudeste.Size = new System.Drawing.Size(263, 21);
+            this.cboSudeste.Size = new System.Drawing.Size(349, 24);
             this.cboSudeste.TabIndex = 10;
             // 
             // cboSul
             // 
             this.cboSul.FormattingEnabled = true;
-            this.cboSul.Location = new System.Drawing.Point(269, 411);
+            this.cboSul.Location = new System.Drawing.Point(359, 506);
+            this.cboSul.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboSul.Name = "cboSul";
-            this.cboSul.Size = new System.Drawing.Size(263, 21);
+            this.cboSul.Size = new System.Drawing.Size(349, 24);
             this.cboSul.TabIndex = 11;
             // 
             // btnEstados
             // 
             this.btnEstados.Font = new System.Drawing.Font("Wide Latin", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEstados.Location = new System.Drawing.Point(586, 65);
+            this.btnEstados.Location = new System.Drawing.Point(781, 80);
+            this.btnEstados.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEstados.Name = "btnEstados";
-            this.btnEstados.Size = new System.Drawing.Size(45, 23);
+            this.btnEstados.Size = new System.Drawing.Size(60, 28);
             this.btnEstados.TabIndex = 12;
             this.btnEstados.Text = "-";
             this.btnEstados.UseVisualStyleBackColor = true;
@@ -205,69 +218,81 @@
             // btnNorte
             // 
             this.btnNorte.Font = new System.Drawing.Font("Wide Latin", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNorte.Location = new System.Drawing.Point(586, 134);
+            this.btnNorte.Location = new System.Drawing.Point(781, 165);
+            this.btnNorte.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnNorte.Name = "btnNorte";
-            this.btnNorte.Size = new System.Drawing.Size(45, 23);
+            this.btnNorte.Size = new System.Drawing.Size(60, 28);
             this.btnNorte.TabIndex = 13;
             this.btnNorte.Text = "-";
             this.btnNorte.UseVisualStyleBackColor = true;
+            this.btnNorte.Click += new System.EventHandler(this.btnNorte_Click);
             // 
             // btnNordeste
             // 
             this.btnNordeste.Font = new System.Drawing.Font("Wide Latin", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNordeste.Location = new System.Drawing.Point(586, 199);
+            this.btnNordeste.Location = new System.Drawing.Point(781, 245);
+            this.btnNordeste.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnNordeste.Name = "btnNordeste";
-            this.btnNordeste.Size = new System.Drawing.Size(45, 23);
+            this.btnNordeste.Size = new System.Drawing.Size(60, 28);
             this.btnNordeste.TabIndex = 14;
             this.btnNordeste.Text = "-";
             this.btnNordeste.UseVisualStyleBackColor = true;
+            this.btnNordeste.Click += new System.EventHandler(this.btnNordeste_Click);
             // 
             // btnCentro
             // 
             this.btnCentro.Font = new System.Drawing.Font("Wide Latin", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCentro.Location = new System.Drawing.Point(586, 273);
+            this.btnCentro.Location = new System.Drawing.Point(781, 336);
+            this.btnCentro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCentro.Name = "btnCentro";
-            this.btnCentro.Size = new System.Drawing.Size(45, 23);
+            this.btnCentro.Size = new System.Drawing.Size(60, 28);
             this.btnCentro.TabIndex = 15;
             this.btnCentro.Text = "-";
             this.btnCentro.UseVisualStyleBackColor = true;
+            this.btnCentro.Click += new System.EventHandler(this.btnCentro_Click);
             // 
             // btnSudeste
             // 
             this.btnSudeste.Font = new System.Drawing.Font("Wide Latin", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSudeste.Location = new System.Drawing.Point(586, 339);
+            this.btnSudeste.Location = new System.Drawing.Point(781, 417);
+            this.btnSudeste.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSudeste.Name = "btnSudeste";
-            this.btnSudeste.Size = new System.Drawing.Size(45, 23);
+            this.btnSudeste.Size = new System.Drawing.Size(60, 28);
             this.btnSudeste.TabIndex = 16;
             this.btnSudeste.Text = "-";
             this.btnSudeste.UseVisualStyleBackColor = true;
+            this.btnSudeste.Click += new System.EventHandler(this.btnSudeste_Click);
             // 
             // btnSul
             // 
             this.btnSul.Font = new System.Drawing.Font("Wide Latin", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSul.Location = new System.Drawing.Point(586, 409);
+            this.btnSul.Location = new System.Drawing.Point(781, 503);
+            this.btnSul.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSul.Name = "btnSul";
-            this.btnSul.Size = new System.Drawing.Size(45, 23);
+            this.btnSul.Size = new System.Drawing.Size(60, 28);
             this.btnSul.TabIndex = 17;
             this.btnSul.Text = "-";
             this.btnSul.UseVisualStyleBackColor = true;
+            this.btnSul.Click += new System.EventHandler(this.btnSul_Click);
             // 
             // lblEstados
             // 
             this.lblEstados.AutoSize = true;
             this.lblEstados.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEstados.Location = new System.Drawing.Point(662, 70);
+            this.lblEstados.Location = new System.Drawing.Point(883, 86);
+            this.lblEstados.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEstados.Name = "lblEstados";
-            this.lblEstados.Size = new System.Drawing.Size(0, 20);
+            this.lblEstados.Size = new System.Drawing.Size(0, 25);
             this.lblEstados.TabIndex = 18;
             // 
             // lblNorte
             // 
             this.lblNorte.AutoSize = true;
             this.lblNorte.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNorte.Location = new System.Drawing.Point(662, 141);
+            this.lblNorte.Location = new System.Drawing.Point(883, 174);
+            this.lblNorte.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNorte.Name = "lblNorte";
-            this.lblNorte.Size = new System.Drawing.Size(0, 20);
+            this.lblNorte.Size = new System.Drawing.Size(0, 25);
             this.lblNorte.TabIndex = 19;
             this.lblNorte.Click += new System.EventHandler(this.lblNorte_Click);
             // 
@@ -275,43 +300,47 @@
             // 
             this.lblNordeste.AutoSize = true;
             this.lblNordeste.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNordeste.Location = new System.Drawing.Point(662, 199);
+            this.lblNordeste.Location = new System.Drawing.Point(883, 245);
+            this.lblNordeste.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNordeste.Name = "lblNordeste";
-            this.lblNordeste.Size = new System.Drawing.Size(0, 20);
+            this.lblNordeste.Size = new System.Drawing.Size(0, 25);
             this.lblNordeste.TabIndex = 20;
             // 
             // lblCentro
             // 
             this.lblCentro.AutoSize = true;
             this.lblCentro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCentro.Location = new System.Drawing.Point(662, 278);
+            this.lblCentro.Location = new System.Drawing.Point(883, 342);
+            this.lblCentro.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCentro.Name = "lblCentro";
-            this.lblCentro.Size = new System.Drawing.Size(0, 20);
+            this.lblCentro.Size = new System.Drawing.Size(0, 25);
             this.lblCentro.TabIndex = 21;
             // 
             // lblSudeste
             // 
             this.lblSudeste.AutoSize = true;
             this.lblSudeste.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSudeste.Location = new System.Drawing.Point(665, 339);
+            this.lblSudeste.Location = new System.Drawing.Point(887, 417);
+            this.lblSudeste.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSudeste.Name = "lblSudeste";
-            this.lblSudeste.Size = new System.Drawing.Size(0, 20);
+            this.lblSudeste.Size = new System.Drawing.Size(0, 25);
             this.lblSudeste.TabIndex = 22;
             // 
             // lblSul
             // 
             this.lblSul.AutoSize = true;
             this.lblSul.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSul.Location = new System.Drawing.Point(665, 411);
+            this.lblSul.Location = new System.Drawing.Point(887, 506);
+            this.lblSul.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSul.Name = "lblSul";
-            this.lblSul.Size = new System.Drawing.Size(0, 20);
+            this.lblSul.Size = new System.Drawing.Size(0, 25);
             this.lblSul.TabIndex = 23;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(779, 518);
+            this.ClientSize = new System.Drawing.Size(1039, 638);
             this.Controls.Add(this.lblSul);
             this.Controls.Add(this.lblSudeste);
             this.Controls.Add(this.lblCentro);
@@ -336,6 +365,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

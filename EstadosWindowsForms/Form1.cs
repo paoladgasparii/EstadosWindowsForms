@@ -88,5 +88,50 @@ namespace EstadosWindowsForms
                 cboNorte.Sorted = true;
             }
         }
+
+        private void btnNorte_Click(object sender, EventArgs e)
+        {
+            cboEstados.Items.Add(cboNorte.Text);
+            cboNorte.Items.RemoveAt(cboNorte.SelectedIndex);
+            lblEstados.Text = cboEstados.Items.Count.ToString();
+            lblNorte.Text = cboNorte.Items.Count.ToString();
+            cboNorte.Sorted = true;
+        }
+
+        private void btnNordeste_Click(object sender, EventArgs e)
+        {
+            cboEstados.Items.Add(cboNordeste.Text);
+            cboNordeste.Items.RemoveAt(cboNordeste.SelectedIndex);
+            lblEstados.Text = cboEstados.Items.Count.ToString();
+            lblNordeste.Text = cboNordeste.Items.Count.ToString();
+            cboNordeste.Sorted = true;
+        }
+
+        private void btnCentro_Click(object sender, EventArgs e)
+        {
+            cboEstados.Items.Add(cboCentro.Text);
+            cboCentro.Items.RemoveAt(cboCentro.SelectedIndex);
+            lblEstados.Text = cboEstados.Items.Count.ToString();
+            lblCentro.Text = cboCentro.Items.Count.ToString();
+            cboCentro.Sorted = true;
+        }
+
+        private void btnSudeste_Click(object sender, EventArgs e)
+        {
+            cboEstados.Items.Add(cboSudeste.Text);
+            cboSudeste.Items.RemoveAt(cboSudeste.SelectedIndex);
+            lblEstados.Text = cboEstados.Items.Count.ToString();
+            lblSudeste.Text = cboSudeste.Items.Count.ToString();
+            cboSudeste.Sorted = true;
+        }
+
+        private void btnSul_Click(object sender, EventArgs e)
+        {
+            cboEstados.Items.Add(cboSul.Text);
+            cboSul.Items.RemoveAt(cboSul.SelectedIndex);
+            lblEstados.Text = cboEstados.Items.Count.ToString();
+            lblSul.Text = cboSul.Items.Count.ToString();
+            cboSul.Sorted = true;
+        }
     }
 }
