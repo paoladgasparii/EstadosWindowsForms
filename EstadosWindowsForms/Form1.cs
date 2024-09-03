@@ -50,6 +50,7 @@ namespace EstadosWindowsForms
                 lblEstados.Text = cboEstados.Items.Count.ToString();
                 lblSudeste.Text = cboSudeste.Items.Count.ToString();
                 cboSudeste.Sorted = true;
+                
             }
 
             if (cboEstados.Text == "RS" || cboEstados.Text == "PR" || cboEstados.Text == "SC") 
@@ -59,6 +60,7 @@ namespace EstadosWindowsForms
                 lblEstados.Text = cboEstados.Items.Count.ToString();
                 lblSul.Text = cboSul.Items.Count.ToString();
                 cboSul.Sorted = true;
+                
             }
 
             if (cboEstados.Text == "MT" || cboEstados.Text == "MS" || cboEstados.Text == "GO") 
@@ -96,6 +98,7 @@ namespace EstadosWindowsForms
             lblEstados.Text = cboEstados.Items.Count.ToString();
             lblNorte.Text = cboNorte.Items.Count.ToString();
             cboNorte.Sorted = true;
+            cboNorte.ResetText();
         }
 
         private void btnNordeste_Click(object sender, EventArgs e)
@@ -105,6 +108,7 @@ namespace EstadosWindowsForms
             lblEstados.Text = cboEstados.Items.Count.ToString();
             lblNordeste.Text = cboNordeste.Items.Count.ToString();
             cboNordeste.Sorted = true;
+            cboNordeste.ResetText();
         }
 
         private void btnCentro_Click(object sender, EventArgs e)
@@ -114,6 +118,7 @@ namespace EstadosWindowsForms
             lblEstados.Text = cboEstados.Items.Count.ToString();
             lblCentro.Text = cboCentro.Items.Count.ToString();
             cboCentro.Sorted = true;
+            cboCentro.ResetText();
         }
 
         private void btnSudeste_Click(object sender, EventArgs e)
@@ -123,6 +128,7 @@ namespace EstadosWindowsForms
             lblEstados.Text = cboEstados.Items.Count.ToString();
             lblSudeste.Text = cboSudeste.Items.Count.ToString();
             cboSudeste.Sorted = true;
+            cboSudeste.ResetText();
         }
 
         private void btnSul_Click(object sender, EventArgs e)
@@ -132,6 +138,7 @@ namespace EstadosWindowsForms
             lblEstados.Text = cboEstados.Items.Count.ToString();
             lblSul.Text = cboSul.Items.Count.ToString();
             cboSul.Sorted = true;
+            cboSul.ResetText();
         }
     }
 }
